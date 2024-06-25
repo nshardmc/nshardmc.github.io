@@ -1,6 +1,6 @@
 window.scrollTo(0, 0);
 
-const serverIpAddress = "play.cubecraft.net:25565";
+const serverIpAddress = "play.nshard.fun:25565";
 
 function getOnline(serverIpAddress) {
   return fetch("https://api.mcsrvstat.us/3/" + serverIpAddress)
